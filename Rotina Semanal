@@ -1,0 +1,56 @@
+Algoritmo "ROTINA SEMANAL"
+// Disciplina   : LÓGICA DE PROGRAMAÇÃO
+// Professor   :  
+// Descrição   : AUXILIA NO CONTROLE DE ATIVIDADES DIÁRIAS
+// Autor(a)    : ALEXANDRE MATHEUS GOMES OLIVEIRA
+// Data atual  : 24/01/2024
+
+Var
+// Seção de Declarações das variáveis
+
+Atv1, Atv2, Atv3, Atv4, Atv5: caractere
+Hor1, Hor2, Hor3, Hor4, Hor5: real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+
+Escreval("ALG01 - ESTE PROGRAMA AUXILIA NO CONTROLE DE ATÉ 05 TAREFAS DIÁRIAS!!!")
+
+Escreval("Digite o nome da 1º atividade que irá realizar em seu dia:")
+Leia(Atv1)
+
+Escreval("Qual horário irá realizar essa atividade?")
+Leia(Hor1)
+
+Escreval("Digite o nome da 2º atividade que irá realizar em seu dia:")
+Leia(Atv2)
+
+Escreval("Qual horário irá realizar essa atividade?")
+Leia(Hor2)
+
+Escreval("Digite o nome da 3º atividade que irá realizar em seu dia:")
+Leia(Atv3)
+
+Escreval("Qual horário irá realizar essa atividade?")
+Leia(Hor4)
+
+Escreval("Digite o nome da 4º atividade que irá realizar em seu dia:")
+Leia(Atv4)
+
+Escreval("Qual horário irá realizar essa atividade?")
+Leia(Hor5)
+
+Escreval("Digite o nome da 5º atividade que irá realizar em seu dia:")
+Leia(Atv5)
+
+Escreval("Qual horário irá realizar essa atividade?")
+Leia(Hor5)
+
+Escreval("SUA ROTINA NESSA SEMANA SERÁ:")
+Escreval("> ", Atv1, " às ", Hor1)
+Escreval("> ", Atv2, " às ", Hor2)
+Escreval("> ", Atv3, " às ", Hor3)
+Escreval("> ", Atv4, " às ", Hor4)
+Escreval("> ", Atv5, " às ", Hor5)
+
+Fimalgoritmo
